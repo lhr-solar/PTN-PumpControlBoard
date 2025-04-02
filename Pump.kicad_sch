@@ -405,7 +405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5e6707db-2a2e-48cc-a32c-fa21be99353e")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR039"
 			(at 41.91 48.26 0)
 			(effects
 				(font
@@ -455,7 +455,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/49b28e86-cfde-410d-931b-2f924e16f8d9"
-					(reference "#PWR032")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -471,7 +471,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6950cfd5-1e6a-4e6a-b9d1-a3f73e4c671f")
-		(property "Reference" "J5"
+		(property "Reference" "J8"
 			(at 52.07 35.5599 0)
 			(effects
 				(font
@@ -540,7 +540,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/49b28e86-cfde-410d-931b-2f924e16f8d9"
-					(reference "J5")
+					(reference "J8")
 					(unit 1)
 				)
 			)
