@@ -543,32 +543,6 @@
 		(color 0 0 0 0)
 		(uuid "a3c1029a-d075-4609-b11b-9e96657d983c")
 	)
-	(junction
-		(at 166.37 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fab19eaf-f398-4f0f-94f6-2730106a912f")
-	)
-	(wire
-		(pts
-			(xy 166.37 63.5) (xy 179.07 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "08f8c8dd-b473-4f9c-9016-dc3908dfd6e3")
-	)
-	(wire
-		(pts
-			(xy 160.02 69.85) (xy 166.37 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e26a48b-5fdc-4bbe-bf39-adc62c88e587")
-	)
 	(wire
 		(pts
 			(xy 106.68 63.5) (xy 106.68 58.42)
@@ -578,26 +552,6 @@
 			(type default)
 		)
 		(uuid "40720176-99bd-4ed3-9300-db1791f5c408")
-	)
-	(wire
-		(pts
-			(xy 166.37 48.26) (xy 166.37 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46e89bcb-0f96-478a-bc39-d11f5027c6f9")
-	)
-	(wire
-		(pts
-			(xy 166.37 72.39) (xy 160.02 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "482a624b-2f61-4199-b1ad-b0bde844284c")
 	)
 	(wire
 		(pts
@@ -661,16 +615,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 63.5) (xy 166.37 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d9d7386-df37-4524-b740-08a391eb55d3")
-	)
-	(wire
-		(pts
 			(xy 106.68 77.47) (xy 106.68 72.39)
 		)
 		(stroke
@@ -731,26 +675,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 69.85) (xy 166.37 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d94ba0a3-fa16-4e93-b529-e4d57ed5ce0c")
-	)
-	(wire
-		(pts
-			(xy 166.37 77.47) (xy 166.37 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28f4e27-ff7d-4090-b9e7-1a486c7eea3f")
-	)
-	(wire
-		(pts
 			(xy 106.68 72.39) (xy 100.33 72.39)
 		)
 		(stroke
@@ -779,18 +703,6 @@
 		)
 		(uuid "ffe82307-be37-4232-b625-86d614e2386d")
 	)
-	(hierarchical_label "TEMP_SEN3"
-		(shape output)
-		(at 179.07 63.5 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "81dc6499-d47c-4347-a77b-47c05c53ed5a")
-	)
 	(hierarchical_label "TEMP_SEN1"
 		(shape output)
 		(at 63.5 63.5 0)
@@ -816,73 +728,6 @@
 		(uuid "e3b01bb7-38e1-4629-89fb-aa409916b34b")
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 166.37 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "02a8252a-c821-4d47-94e0-163568066418")
-		(property "Reference" "#PWR035"
-			(at 166.37 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+12V"
-			(at 168.91 46.9899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 166.37 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef03e920-87a4-4d09-a895-33cad9f0009f")
-		)
-		(instances
-			(project "PTN-PumpControlBoard"
-				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_US")
 		(at 50.8 54.61 0)
 		(unit 1)
@@ -891,7 +736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2eb0bdaf-db17-4f39-bcbf-9ee04791da2e")
-		(property "Reference" "R13"
+		(property "Reference" "R17"
 			(at 53.34 53.3399 0)
 			(effects
 				(font
@@ -900,7 +745,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.5k"
+		(property "Value" "1k"
 			(at 53.34 55.8799 0)
 			(effects
 				(font
@@ -945,7 +790,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "R13")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -961,7 +806,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "428bb1e0-06c6-43b2-91ec-58e72a07a1e9")
-		(property "Reference" "J5"
+		(property "Reference" "TEMP2"
 			(at 95.25 63.5 0)
 			(effects
 				(font
@@ -986,7 +831,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://koolance.com/files/products/manuals/Koolance_sen-ap008g_specifications.pdf"
 			(at 95.25 72.39 0)
 			(effects
 				(font
@@ -1013,7 +858,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "J5")
+					(reference "TEMP2")
 					(unit 1)
 				)
 			)
@@ -1028,7 +873,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4933004c-7741-48a7-a85b-73dad8fb237d")
-		(property "Reference" "R14"
+		(property "Reference" "R18"
 			(at 109.22 53.3399 0)
 			(effects
 				(font
@@ -1037,7 +882,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.5k"
+		(property "Value" "1k"
 			(at 109.22 55.8799 0)
 			(effects
 				(font
@@ -1082,144 +927,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 166.37 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5318bc28-dc1b-46c9-b99d-14f11d9229a6")
-		(property "Reference" "R15"
-			(at 168.91 53.3399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3.5k"
-			(at 168.91 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 167.386 54.864 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 166.37 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "759f92c3-26a0-4feb-bd66-8820b4fd35a0")
-		)
-		(pin "2"
-			(uuid "84b35744-4e26-435a-be72-b3b9ef167ab7")
-		)
-		(instances
-			(project "PTN-PumpControlBoard"
-				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 154.94 72.39 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "78cdf218-4fa3-4557-8a3e-205e9ecdcc15")
-		(property "Reference" "J6"
-			(at 154.94 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x02"
-			(at 154.94 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "UTSVT_Connectors:Molex_MicroFit3.0_1x2xP3.00mm_PolarizingPeg_Vertical"
-			(at 154.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 154.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 154.94 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fb21ae6f-90da-4951-a2a9-5417468d679d")
-		)
-		(pin "2"
-			(uuid "1d957c82-c82b-43b6-b90a-57ef140f7665")
-		)
-		(instances
-			(project "PTN-PumpControlBoard"
-				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "J6")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -1235,7 +943,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01c3e0c-e387-4969-84d2-a295686fe343")
-		(property "Reference" "J4"
+		(property "Reference" "TEMP1"
 			(at 39.37 63.5 0)
 			(effects
 				(font
@@ -1260,7 +968,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://koolance.com/files/products/manuals/Koolance_sen-ap008g_specifications.pdf"
 			(at 39.37 72.39 0)
 			(effects
 				(font
@@ -1287,7 +995,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "J4")
+					(reference "TEMP1")
 					(unit 1)
 				)
 			)
@@ -1303,7 +1011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cbf56ad4-16ed-4d24-a8d0-433b9f43c60b")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR029"
 			(at 106.68 83.82 0)
 			(effects
 				(font
@@ -1353,73 +1061,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 166.37 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d57e0cb4-19de-4c63-b229-9d53640a206f")
-		(property "Reference" "#PWR036"
-			(at 166.37 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 166.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 166.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 166.37 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eaab7dcb-2541-4ff4-a61f-c139884f1fbb")
-		)
-		(instances
-			(project "PTN-PumpControlBoard"
-				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "#PWR036")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -1435,7 +1077,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0a364b2-f2c5-44d8-967c-77d142fe5900")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR026"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -1444,13 +1086,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 53.34 46.9899 0)
+		(property "Value" "+3.3V"
+			(at 50.8 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1486,7 +1127,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "#PWR031")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -1502,7 +1143,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f3a218-cae3-4645-b9f1-8c24acc47e20")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR027"
 			(at 106.68 52.07 0)
 			(effects
 				(font
@@ -1511,13 +1152,12 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+12V"
-			(at 109.22 46.9899 0)
+		(property "Value" "+3V3"
+			(at 106.68 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
@@ -1553,7 +1193,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "#PWR033")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -1569,7 +1209,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb0cdf06-53fe-4db0-a0be-c2680a1a5cef")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR028"
 			(at 50.8 83.82 0)
 			(effects
 				(font
@@ -1619,7 +1259,7 @@
 		(instances
 			(project "PTN-PumpControlBoard"
 				(path "/591f46f8-eb1d-42dc-a4cb-8182eac4ef58/0e5255e2-25aa-4e9a-a6ff-997dc3e398fd"
-					(reference "#PWR032")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
